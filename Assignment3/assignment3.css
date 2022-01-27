@@ -52,7 +52,7 @@ header{
 }
 
 
-.bimage-div {
+.background-div {
   background-image: url('assignment3_images/image2.png');
   width: 1140px;
   height: 700px;
@@ -103,10 +103,10 @@ header{
 }
 
 
-.discover-btnser {
+.service-btn {
     background-color: #AF9453;
     color: white;
-    margin-top: 130px;
+    margin-top: 60px;
     margin-left: 100px;
     padding: 12px;
     font-size: 12px;
@@ -130,7 +130,7 @@ header{
     letter-spacing:3px;
 }
 
-.poster-ser {
+.poster-service {
     background-color: #AF9453;
     width: 380px;
     height: 600px;
@@ -145,30 +145,6 @@ header{
     height: 500px;
     float: left;
     background-image: url('assignment3_images/flower.png');
-}
-
-.last-div {
-  width: 1140px;
-  height: 250px;
-  margin-top: 100px;
-  margin-left: 60px;
-  background-color: #AF9453;
-  float: left;
-  position: absolute;
-}
-
-.footer-col {
-  width: 700px;
-  padding-top: 40px;
-  margin-left: 70px;
-}
-
-.cols-div {
-    margin-top: 60px;
-    padding-top: 10px;
-    float: left;
-    padding: 20px;
-    font-family: 'Roboto', 'sans-serif';
 }
 
 .poster-div {
@@ -187,4 +163,49 @@ header{
     float: left;
     margin-left: 45px;
     background-image: url('assignment3_images/image1.png');
+}
+
+.footer {
+    background-color: #AF9453;
+    width: 1140px;
+    height: 210px;
+    margin: 100px 0 40px 60px;
+    color: white;
+    font-size: 12px;
+}
+
+.line1 {
+    border-left: 1px solid white;
+    height: 45px;
+    position: absolute;
+    margin: 72px 240px;
+
+}
+
+.line2 {
+    border-left: 1px solid white;
+    height: 45px;
+    position: absolute;
+    margin: 72px 440px;
+}
+
+.footer-text1 {
+    position: absolute;
+    margin: 70px 100px;
+    font-size: 15px;
+    font-family: 'Arial', 'sans-serif';
+}
+
+.footer-text2 {
+    position: absolute;
+    margin: 70px 265px;
+    font-size: 15px;
+    font-family: 'Arial', 'sans-serif';
+}
+
+.footer-text3 {
+    position: absolute;
+    margin: 70px 460px;
+    font-size: 15px;
+    font-family: 'Arial', 'sans-serif';
 }
